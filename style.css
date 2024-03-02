@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+div{
+    text-align: center;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 3px solid azure;
+    border-radius: 10%;
+}
+
+p{
+    color: aqua;
+    padding-bottom: 20px;
+}
+
+img{
+    width: 200px;
+    box-shadow: 2px 5px 10px 10px #888888;
+}
+
+div:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}
